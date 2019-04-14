@@ -25,7 +25,7 @@
         >
 
         <EditText
-            android:id="@+id/contentUserid"
+            android:id="@+id/userIdEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="User ID"
@@ -34,7 +34,7 @@
             />
 
         <EditText
-            android:id="@+id/contentUserPassword"
+            android:id="@+id/userPwEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="PassWord"
