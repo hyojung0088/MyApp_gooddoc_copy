@@ -1,5 +1,6 @@
 package com.example.myapp_gooddoc_copy;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,7 +31,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (userId.equals("tjeit") && userPw.equals("1234"))
                 {
-
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }
                 else
                 {
