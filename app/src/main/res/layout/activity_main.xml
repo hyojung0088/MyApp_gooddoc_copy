@@ -117,18 +117,21 @@
             />
 
         <EditText
+            android:id="@+id/SerachText"
             android:background="#00000000"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:paddingLeft="5dp"
             android:hint="병원명, 질병 키워드로 병원찾기"
+            android:singleLine="true"
             />
 
         <Button
+            android:id="@+id/serachBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="버튼"
+            android:text="검색"
             />
 
     </LinearLayout>
