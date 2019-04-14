@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (userId.equals("tjeit") && userPw.equals("1234"))
                 {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.putExtra("user_id", userId);
                     startActivity(intent);
                     finish();
                 }
